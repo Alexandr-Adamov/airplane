@@ -1,0 +1,17 @@
+.price {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.price__amount {
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 400;
+}
+
+
+.price__amount--dollar{
+    font-size: 32px;
+}
+

@@ -1,0 +1,50 @@
+.comments {
+    display: flex;
+    flex-direction: column;
+} 
+
+.comments__content {
+    display: flex;
+}
+
+.comments__page {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.comments__container {
+    display: flex;
+}
+
+.comments__item {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 29px 0px;
+}
+
+.comments__content {
+    margin-top: 0;
+
+}
+
+li.comments__item:last-child {
+    padding: 16px 0px;
+    border-bottom: 0;
+}
+
+.comments__desc {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 22px;
+    width: 78%;
+}
+
+
+
+
+.comments__img {
+    border-radius: 50%;
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.copyright {
+    align-items: center;
+    display: flex;
+    width: 234px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto;
+    margin-left: 19px;
+}
+
+.copyright__text {
+    color: #ffffff;
+}
+
+.copyright__link {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.copyright__name {
+    font-size: 14px;
+    font-weight: 700;
+}

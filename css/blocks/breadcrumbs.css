@@ -1,0 +1,35 @@
+.breadcrumbs {
+    margin-top: 39px;
+    padding-left: 3px;
+    margin-bottom: 9px;
+}
+
+
+.breadcrumbs__list {
+    display: flex;
+    
+}
+
+
+.breadcrumbs__link {
+    font-family: roboto;
+    font-style: italic;
+    font-size: 14px;
+    color: #656464;
+
+}
+
+
+.breadcrumbs__item:after {
+    content: "/";
+    color: #656464;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__link--activ {
+    text-decoration: underline;
+    color: #4b73b5;
+}

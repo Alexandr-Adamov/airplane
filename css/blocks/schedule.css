@@ -1,0 +1,39 @@
+.schedule {
+    position: absolute;
+    margin-top: 15px;
+    top: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: 1px solid;
+    background-color: #fff;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    display: none;
+}
+
+.schedule__item {
+    color: black;
+    margin-bottom: 3px;
+}
+
+.schedule__time {
+    color: #4b73b5;
+}
+
+.schedule__list {
+    padding: 6px 22px;
+}
+
+.schedule__cub {
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    transform-origin: 0 0;
+    transform: rotate(-46deg);
+    margin-right: 7px;
+    background-color: #fff;
+    border-radius: 3px;
+}

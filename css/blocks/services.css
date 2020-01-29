@@ -1,0 +1,8 @@
+.services__list {
+    margin-left: 18px;
+    flex-wrap: wrap;
+}
+
+.services__item {
+    margin-top: 5px;
+}

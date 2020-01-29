@@ -1,0 +1,63 @@
+.menu__team {
+    margin-top: 44px;
+}
+
+.menu__comments {
+    margin-top: 44px;
+}
+
+.menu__list {
+    margin-top: 25px;
+}
+
+.menu__text {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    margin-left: 17px;
+    margin-bottom: 31px;
+    color: #4b73b5;
+    display: flex;
+}
+
+.menu__text-activ {
+    color: #221f1f;
+}
+
+.menu__text:before {
+    content: "";
+    background: no-repeat center center;
+    width: 24px;
+    height: 18px;
+    margin-right: 15px;
+}
+
+.menu__text--icon--main:before {
+    background-image: url('../../images/main_hover.png');
+}
+
+.menu__text--comments--main:before {
+    background-image: url('../../images/main.png');
+}
+
+.menu__text--icon--feed:before {
+    background-image: url('../../images/feed.png');
+}
+
+.menu__text--comments--feed:before {
+    background-image: url('../../images/feed_hover.png');
+}
+
+.menu__text--icon--team:before {
+    background-image: url('../../images/team.png');
+}
+
+.menu__text--team--team:before {
+    background-image: url('../../images/team_hover.png');
+}
+
+.menu__item {
+    display: flex;
+    align-items: center;
+}

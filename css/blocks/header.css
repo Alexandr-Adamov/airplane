@@ -1,0 +1,15 @@
+
+.header {
+    background-color: #4b73b5;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    margin-left: 21px;
+}

@@ -1,0 +1,6 @@
+
+.flight {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 13px;
+}

@@ -1,0 +1,18 @@
+.partners {
+    margin-top: 17px;
+    margin-bottom: 67px;
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.partners__item {
+    flex: 1 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 20px 24px 0px;
+}

@@ -1,0 +1,145 @@
+.team__page {
+    display: flex;
+}
+
+.team__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    text-align: center;
+    
+    flex: 1 0 245px;
+    padding: 33px 31px 9px 12px;
+}
+
+.team__img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.team__photo {
+    position: relative;
+    width: 160px;
+    max-height: 160px;
+    display: inline-flex;
+}
+
+.team__photo:after {
+    position: absolute;
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #8e9fc7;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.team__photo_alexey:before {
+    position: absolute;
+    display: block;
+    content: "Алексей";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+.team__photo_inna:before {
+    position: absolute;
+    display: block;
+    content: "Инна";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.team__photo_boris:before {
+    position: absolute;
+    display: block;
+    content: "Борис";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.team__photo_elina:before{
+    position: absolute;
+    display: block;
+    content: "Элина";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.team__photo_elena:before {
+    position: absolute;
+    display: block;
+    content: "Елена";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.team__photo_yurii:before {
+    position: absolute;
+    display: block;
+    content: "Юрий";
+    top: 66px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.team__desc {
+    font-family: Roboto;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.team__profession {
+    font-size: 14px;
+    font-weight: 700;
+    color: #5972b1;
+
+}
+
+.team__text{
+    line-height: 22px;
+    margin-top: 6px;
+}
+
